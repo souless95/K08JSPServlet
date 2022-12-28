@@ -76,7 +76,7 @@
 			<!-- 첨부파일의 경우 필수사항이 아니므로 테이블 생성시에도 not null 조건이
 			적용되어 있지 않다. 따라서 첨부파일이 있을때만 다운로드 링크를 출력한다. -->
 			<c:if test="${not empty row.ofile}">
-				<a href="../mvcboard/download.do?ofile={${row.ofile}
+				<a href="../mvcboard/download.do?ofile=${row.ofile}
 					&sfile=${row.sfile}&idx=${row.idx}">[Down]</a>			
 			</c:if>
 			</td>

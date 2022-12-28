@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>회원제 게시판</title>
+<title>파일 첨부형 게시판</title>
 <script type="text/javascript">
 function validateForm(form) {  // 폼 내용 검증
     if (form.name.value == "") {
